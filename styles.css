@@ -1,0 +1,68 @@
+/*--------------------
+    Custom Properties
+  --------------------*/
+
+
+/*---------
+    Reset
+  ---------*/
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+}
+
+/*---------------
+   Global Styles 
+----------------*/
+body {
+    background-image: url(./assets/bg-main-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top -120px right -120px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*-------------
+   Typography
+--------------*/
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: -.45px;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+main p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
