@@ -1,7 +1,13 @@
 /*--------------------
     Custom Properties
   --------------------*/
-
+:root {
+    --bg-ios: #66E2DC;
+    --bg-android: #FFB964;
+    --bg-accent: #FA7453;
+    --text-dark: #191826;
+    --text-light: #FCFAF9;
+}
 
 /*---------
     Reset
@@ -17,9 +23,9 @@
 }
 
 /* Make images easier to work with */
-img {
+/* img {
     max-width: 100%;
-}
+} */
 
 /*---------------
    Global Styles 
@@ -62,7 +68,69 @@ main p {
     line-height: 1.75rem;
 }
 
-a {
+.col2 a {
     font-weight: 700;
     text-decoration: none;
+}
+
+i {
+    font-size: 1.25rem;
+}
+
+/*----------------
+   Mobile Layout
+-----------------*/
+header,
+footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,
+footer,
+.card-wrapper {
+    max-width: 20.4375rem;
+}
+
+header {
+    margin-top: 2.49rem;
+    margin-bottom: 4.25rem;
+}
+
+header img {
+    margin-bottom: 4rem;
+}
+
+header p {
+    margin-top: 1.25rem;
+}
+
+
+
+.background-pattern {
+    background-color: var(--text-dark);
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: .75rem;
+    height: 600px;
+    
+}
+
+.img-wrapper {
+    display: grid;
+    justify-content: center;
+    margin-bottom: -365px;
+}
+
+.phone{
+    width: 13.06rem;
+}
+
+.card {
+    background-color: var(--bg-accent);
+    border-radius: .75rem;
+    display: grid;
+    justify-content: center;
+    margin-top: -170px;
 }
