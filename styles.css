@@ -128,9 +128,38 @@ header p {
 }
 
 .card {
+    align-items: center;
     background-color: var(--bg-accent);
     border-radius: .75rem;
+    color: var(--text-light);
     display: grid;
+    height: 34.125rem;
     justify-content: center;
     margin-top: -170px;
+    padding: 3rem 2.25rem;
+}
+
+button {
+    border: none;
+    border-radius: .75rem;
+    height: 3.8125rem;
+    width: 18.5rem;
+}
+
+.ios {
+    background-color: var(--text-dark);
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.ios:hover {
+    background-color: var(--bg-ios);
+}
+
+.android {
+    background-color: var(--text-light);
+}
+
+.android:hover {
+    background-color: var(--bg-android);
 }
