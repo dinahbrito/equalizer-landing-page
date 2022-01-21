@@ -185,3 +185,18 @@ button img {
 .android:hover {
     background-color: var(--bg-android);
 }
+
+/* Footer */
+
+footer {
+    margin-top: 3.875rem;
+}
+
+footer p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.col3 {
+    margin-bottom: 5rem;
+}
