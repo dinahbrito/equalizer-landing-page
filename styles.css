@@ -77,6 +77,13 @@ i {
     font-size: 1.25rem;
 }
 
+span {
+    font-size: 4.0625rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    vertical-align: middle;
+}
+
 /*----------------
    Mobile Layout
 -----------------*/
@@ -139,11 +146,26 @@ header p {
     padding: 3rem 2.25rem;
 }
 
+.summary {
+    margin-top: .75rem;
+    margin-bottom: 2.25rem;
+}
+
+.price {
+    margin-bottom: 2rem;
+}
+
 button {
     border: none;
     border-radius: .75rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
     height: 3.8125rem;
     width: 18.5rem;
+}
+
+button img {
+    vertical-align: middle;
 }
 
 .ios {
