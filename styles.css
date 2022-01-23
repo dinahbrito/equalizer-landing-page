@@ -156,16 +156,19 @@ header p {
 }
 
 button {
+    align-items: center;
     border: none;
     border-radius: .75rem;
+    display: flex;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     height: 3.8125rem;
+    justify-content: center;
     width: 18.5rem;
 }
 
 button img {
-    vertical-align: middle;
+    margin-right: .495rem;
 }
 
 .ios {
@@ -199,4 +202,19 @@ footer p {
 
 .col3 {
     margin-bottom: 5rem;
+}
+
+footer a,
+footer i {
+    color: var(--text-dark);
+}
+
+footer a:hover,
+footer i:hover {
+    color: var(--bg-accent);
+}
+
+.fa-facebook-square,
+.fa-instagram {
+    margin-right: 1.25rem;
 }
