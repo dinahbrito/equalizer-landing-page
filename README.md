@@ -1,1 +1,1 @@
-# Equalizer Landing Page
+# Equalizer Landing Page - WIP
